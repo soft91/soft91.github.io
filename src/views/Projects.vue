@@ -56,6 +56,14 @@ import { ProjectInterfaces } from '@/common/Interface';
 export default class Projects extends Vue {
   private projectList: ProjectInterfaces = [
     {
+      imgPath : require('@/assets/projects/Whateverpad.png'),
+      title   : 'Whatever Pad',
+      comment : 'Electron + Vue.js로 구축한 NotePad',
+      content : 'Elctron + Vue.js + Vuex + Vuetify를 활용한 NotePad 구현',
+      gitURL  : 'https://github.com/soft91/electron-vue-notepad',
+      isShowing: false
+    },
+    {
       imgPath : require('@/assets/projects/Vue.png'),
       title   : 'Trello Clone by Vue.js',
       comment : 'Vue.js를 이용한 Trello 클론 코딩',
