@@ -1,7 +1,6 @@
 <template>
   <div class="projects-wrapper">
     <h1>Projects</h1>
-    <div>
       <div 
         v-for="(value, index) in projectList"
         :key="index"
@@ -48,7 +47,6 @@
         </v-card>
     </div>
     </div>
-  </div>
 </template>
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
