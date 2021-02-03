@@ -8,7 +8,7 @@
       >
         <v-card
           class="card-wrapper"
-          max-width="370"
+          max-width="420"
         >
           <v-img
             :src="value.img"

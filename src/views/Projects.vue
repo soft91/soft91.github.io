@@ -1,6 +1,7 @@
 <template>
   <div class="projects-wrapper">
     <h1>Projects</h1>
+    <div>
       <div 
         v-for="(value, index) in projectList"
         :key="index"
@@ -8,7 +9,7 @@
        >
         <v-card
           class="card-wrapper"
-          max-width="370"
+          max-width="420"
         >
           <v-img
             :src="value.imgPath"
@@ -45,6 +46,7 @@
             </div>
           </v-expand-transition>
         </v-card>
+    </div>
     </div>
   </div>
 </template>
