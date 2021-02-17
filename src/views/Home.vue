@@ -12,7 +12,7 @@
 		</h1>
     <div class="contact">
       <span>CONTACT ME</span>
-      <span>e-mail : soft4750@gmail.com</span>
+      <span>E-mail : soft4750@gmail.com</span>
     </div>
   </div>
 </template>

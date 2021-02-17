@@ -7,9 +7,9 @@
         <span class="logoTag">/&gt;</span>
       </a>
       <nav class="nav">
-        <router-link to="/about">About</router-link>
-        <router-link to="/projects">Projects</router-link>
-        <router-link to="/interest">Interests</router-link>
+        <router-link to="/about">.about()</router-link>
+        <router-link to="/projects">.projects()</router-link>
+        <router-link to="/interest">.interests()</router-link>
         <!-- <router-link to="/admin">Admin</router-link> -->
       </nav>
     </header>
