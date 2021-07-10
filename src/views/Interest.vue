@@ -40,12 +40,6 @@ import { Vue, Component } from 'vue-property-decorator';
 export default class Interest extends Vue {
   private Interests: Array<object> = [
     {
-      title   : 'Music',
-      comment : '노래 부르는 것을 좋아해 친구와 녹음을 합니다.🎤',
-      img     : require('@/assets/interests/Music.png'),
-      URL     : 'https://www.instagram.com/karaoke3489/',
-    },
-    {
       title   : 'Pet', 
       comment : '강아지를 키우고 있습니다.🐕‍🦺',
       img     : require('@/assets/interests/Coni.png'),

@@ -2,8 +2,9 @@
   <div class="about-wrapper">
     <div class="about-intro">
       <h1>YOON HOSEUNG</h1>
-      <h2>Front-End Developer</h2>
-      <h3>FE : React.js, Vue.js</h3>
+      <h2>Front-End Web Developer</h2>
+      <h3>Lang : Javascript(ES5, ES6)</h3>
+      <h3>FE : Next.js, React.js, Vue.js</h3>
       <h3>BE : Spring Framework, Node.js, MySQL</h3>
       <div class="icon-container">
         <a target="_blank" href="https://github.com/soft91" class="icon">
