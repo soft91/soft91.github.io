@@ -3,9 +3,10 @@
     <div class="about-intro">
       <h1>YOON HOSEUNG</h1>
       <h2>Front-End Web Developer</h2>
-      <h3>Lang : Javascript(ES5, ES6)</h3>
-      <h3>FE : Next.js, React.js, Vue.js</h3>
-      <h3>BE : Spring Framework, Node.js, MySQL</h3>
+      <h3>Lang : Typescript, Javascript(ES6)</h3>
+      <h3>FE : Next.js, React.js, Vue.js, HTML/CSS3</h3>
+      <h3>BE : Spring Framework, MySQL, AWS</h3>
+      <h3>ETC : GitHub, Jira, Zeplin, Notion, Swagger</h3>
       <div class="icon-container">
         <a target="_blank" href="https://github.com/soft91" class="icon">
           <span class="iconName">GitHub</span>
@@ -15,7 +16,7 @@
           <span class="iconName">Linked In</span>
           <img src="../assets/about/Linkedin.svg" alt="GitHub" class="iconImg"/>
         </a>
-        <a target="_blank" href="https://instagram.com/soft4750" class="icon">
+        <a target="_blank" href="https://instagram.com/hoveloper_91" class="icon">
           <span class="iconName">Instagram</span>
           <img src="../assets/about/Instagram.svg" alt="GitHub" class="iconImg"/>
         </a>

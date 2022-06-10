@@ -43,13 +43,13 @@ export default class Interest extends Vue {
       title   : 'Pet', 
       comment : '강아지를 키우고 있습니다.🐕‍🦺',
       img     : require('@/assets/interests/Coni.png'),
-      URL     : 'https://www.instagram.com/conistar_20190215/'
+      URL     : 'https://www.instagram.com/coconni_siba/'
     },
     {
       title   : 'Food', 
       comment : '맛있는 음식을 먹으며 리뷰를 하고 있습니다.🍩',
       img     : require('@/assets/interests/Food.png'),
-      URL     : 'https://www.instagram.com/hochelin91/',
+      URL     : 'https://www.instagram.com/91_hochelin/',
     }
   ];
 } 
