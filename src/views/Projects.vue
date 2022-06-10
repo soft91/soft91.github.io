@@ -50,11 +50,11 @@
 </template>
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
-import { ProjectInterfaces } from '@/common/Interface';
+import { ProjectListTypes } from '@/common/Interface';
 
 @Component
 export default class Projects extends Vue {
-  private projectList: ProjectInterfaces = [
+  public projectList: Array<ProjectListTypes> = [
     {
       imgPath : require('@/assets/projects/Whateverpad.png'),
       title   : 'Whatever Pad',
@@ -89,7 +89,7 @@ export default class Projects extends Vue {
     }
   ]
 
-  private toggleShow(i: number): void {
+  public toggleShow(i: number): void {
     this.projectList[i].isShowing = !this.projectList[i].isShowing;
   }
 } 

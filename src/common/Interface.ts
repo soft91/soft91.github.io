@@ -1,10 +1,15 @@
-interface ProjectInterface {
-    imgPath: Function,
-    title  : string,
-    comment: string,
-    content: string,
-    gitURL : string,
-    isShowing: boolean
+export interface ProjectListTypes {
+  imgPath: Function;
+  title: string;
+  comment: string;
+  content: string;
+  gitURL: string;
+  isShowing: boolean;
 }
 
-export interface ProjectInterfaces extends Array<ProjectInterface>{};
+export interface InterestListTypes {
+  title: string;
+  comment: string;
+  img: string;
+  URL: string;
+}

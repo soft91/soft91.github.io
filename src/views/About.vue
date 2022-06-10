@@ -6,39 +6,49 @@
       <h3>Lang : Typescript, Javascript(ES6)</h3>
       <h3>FE : Next.js, React.js, Vue.js, HTML/CSS3</h3>
       <h3>BE : Spring Framework, MySQL, AWS</h3>
-      <h3>ETC : GitHub, Jira, Zeplin, Notion, Swagger</h3>
+      <h3>ETC : GitHub, Jira, Slack, Zeplin, Notion, Swagger</h3>
       <div class="icon-container">
         <a target="_blank" href="https://github.com/soft91" class="icon">
           <span class="iconName">GitHub</span>
-          <img src="../assets/about/GitHub.svg" alt="GitHub" class="iconImg"/>
+          <img src="../assets/about/GitHub.svg" alt="GitHub" class="iconImg" />
         </a>
         <a target="_blank" href="http://linkedin.com/in/soft91" class="icon">
           <span class="iconName">Linked In</span>
-          <img src="../assets/about/Linkedin.svg" alt="GitHub" class="iconImg"/>
+          <img
+            src="../assets/about/Linkedin.svg"
+            alt="GitHub"
+            class="iconImg"
+          />
         </a>
-        <a target="_blank" href="https://instagram.com/hoveloper_91" class="icon">
+        <a
+          target="_blank"
+          href="https://instagram.com/hoveloper_91"
+          class="icon"
+        >
           <span class="iconName">Instagram</span>
-          <img src="../assets/about/Instagram.svg" alt="GitHub" class="iconImg"/>
+          <img
+            src="../assets/about/Instagram.svg"
+            alt="GitHub"
+            class="iconImg"
+          />
         </a>
         <a target="_blank" href="https://soft91.tistory.com" class="icon">
           <span class="iconName">Blog</span>
-          <img src="../assets/about/Blog.svg" alt="GitHub" class="iconImg"/>
+          <img src="../assets/about/Blog.svg" alt="GitHub" class="iconImg" />
         </a>
       </div>
     </div>
     <div class="about-img">
-      <img src="../assets/about/Yoon.jpg" class="aboutImg"/>
+      <img src="../assets/about/Yoon.jpg" class="aboutImg" />
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { Vue, Component } from 'vue-property-decorator';
+import { Vue, Component } from "vue-property-decorator";
 
 @Component
-export default class About extends Vue {
-
-}
+export default class About extends Vue {}
 </script>
 
 <style scoped>
@@ -46,13 +56,16 @@ h1 {
   color: #ffffff;
   max-width: 400px;
   line-height: 80px;
-  font-size: calc(32px + 28*(100vw - 320px)/1120);
+  font-size: calc(32px + 28 * (100vw - 320px) / 1120);
+  text-decoration: underline;
+  line-height: 1.1;
 }
 
-h2, h3 {
+h2,
+h3 {
   color: #ffffff;
-  max-width: 400px;
-  line-height: 80px; 
+  max-width: 500px;
+  line-height: 80px;
 }
 
 .about-wrapper {
@@ -99,15 +112,15 @@ h2, h3 {
   position: absolute;
   top: -15px;
   left: 50%;
-  font-family: five_boroughs_handwritingRg,sans-serif;
+  font-family: five_boroughs_handwritingRg, sans-serif;
   color: #4758fc;
   -webkit-transform: translateX(-50%) rotate(0deg);
   transform: translateX(-50%) rotate(0deg);
   font-size: 1rem;
   letter-spacing: 3px;
   opacity: 0;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   margin-left: 5%;
 }
 
@@ -116,7 +129,7 @@ h2, h3 {
   top: 50%;
   left: 50%;
   width: 25px;
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 </style>

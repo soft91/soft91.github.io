@@ -8,15 +8,14 @@
       </a>
       <nav class="nav">
         <router-link to="/about">.about()</router-link>
+        <!-- <router-link to="/experience">.experience()</router-link> -->
         <router-link to="/projects">.projects()</router-link>
-        <router-link to="/interest">.interests()</router-link>
-        <!-- <router-link to="/admin">Admin</router-link> -->
+        <!-- <router-link to="/interest">.interests()</router-link> -->
       </nav>
     </header>
-    <router-view/>
+    <router-view />
   </div>
 </template>
-
 <style>
 body {
   padding: 0px;
